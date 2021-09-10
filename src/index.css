@@ -1,0 +1,20 @@
+:root {
+	/* Colors */
+
+	--color-text: hsl(0deg, 0%, 100%);
+    --color-background: hsl(210deg, 30%, 8%);
+    --color-blurred-background: #2B2B2B;
+    --color-primary: hsl(230deg, 100%, 67%);
+    --color-secondary: hsl(333deg, 100%, 52%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--color-background);
+	font-family: 'Poppins', sans-serif;
+}
